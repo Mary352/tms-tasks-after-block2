@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+</head>
+
+<style>
+   #posts--wrapper {
+      padding-top: 50px;
+   }
+
+   .posts--wrapper__post {
+      border: 1px solid #ff0000;
+      padding: 15px;
+   }
+
+   .comments--wrapper {
+      padding-left: 50px;
+   }
+
+   .comments--wrapper__comment {
+      border: 1px solid #000;
+      padding: 15px;
+   }
+
+   .comment__name {
+      font-weight: 700;
+   }
+
+   .comment__body-edit {
+      width: 100%;
+      /* display: none; */
+   }
+
+   /* .comment__save-btn {
+      display: none;
+   } */
+</style>
+
+<body>
+   <div id="user-search">
+      <h4>Search User Posts</h4>
+      <!-- <label for="username">Username</label> -->
+      <input id="username" placeholder="username" type="text">
+      <button id="btn-search">Search</button>
+   </div>
+   <div id="post-add-form">
+      <h4>Add Post</h4>
+      <input id="title" placeholder="title" type="text">
+      <input id="body" placeholder="body" type="textarea">
+      <button id="btn-post">Post</button>
+   </div>
+
+   <div id="posts--wrapper">
+      <!-- <div class="posts--wrapper__post-with-comments">
+         <div class="posts--wrapper__post" idpost="0">
+            <h2 class="post__title">POST 1</h2>
+            <p class="post__body">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit, quam? Vero nisi
+               repellendus, ea aliquam quis, debitis velit eaque sint laboriosam, eum minus. Nisi dolorem perferendis
+               repellendus facilis natus porro!
+               Tempora ad ex beatae quam. Cum provident voluptatibus fuga, error alias possimus minus eos molestiae,
+               tempore repellat maxime dignissimos! Voluptate eos itaque neque mollitia dolorum voluptatibus quis
+               provident
+               quas? Recusandae!
+               Ratione, quibusdam voluptatum? Beatae voluptas atque minus hic dolorum? Excepturi modi exercitationem
+               natus,
+               velit quae minus praesentium et alias? Maxime iste porro atque, aspernatur dolorum dolores fugiat
+               perspiciatis eos repudiandae!</p>
+         </div>
+         <div class="comments--wrapper">
+            <div class="comments--wrapper__comment">
+               <p class="comment__name">John</p>
+               <p class="comment__body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet sequi non
+                  voluptatem voluptates, incidunt quidem inventore iure quam neque saepe! Vel dicta aliquid architecto
+                  est possimus assumenda tenetur nam accusantium!</p>
+               <button class="comment__edit-btn">Edit</button>
+               <button class="comment__save-btn">Save</button>
+            </div>
+
+         </div>
+      </div> -->
+
+   </div>
+   <script src="./script.js"></script>
+</body>
+
+</html>
